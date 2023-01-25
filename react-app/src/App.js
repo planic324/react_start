@@ -23,9 +23,10 @@ class App extends Component{
     return (
       <div className="App">
         <Subject 
-        title="{this.state.subject.title}" 
-        sub="{this.state.subject.sub}"></Subject>
-        <Navlist data={this.state.contents}></Navlist>
+        title={this.state.subject.title}
+        sub={this.state.subject.sub}></Subject>
+        <Navlist 
+        data={this.state.contents}></Navlist>
         <Document title="HTML" sub="HTML is HyperText Markup Language."></Document>
       </div>
     );
