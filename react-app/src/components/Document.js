@@ -5,7 +5,8 @@ class Document extends Component {
       return(
           <article>
               <h2>{this.props.title}</h2>
-              {this.props.sub}
+              {/* {this.props.sub} */}
+              {this.props.desc}
           </article>
       );
     }
